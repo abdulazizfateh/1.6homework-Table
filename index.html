@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.6 homework | Table </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="table-box">
+        <table class="ftable" border="1px">
+            <thead class="fthead">
+                <tr class="fthead-row">
+                    <th class="fthead-row-content">No.</th>
+                    <th class="fthead-row-content">Full Name</th>
+                    <th class="fthead-row-content">Position</th>
+                    <th class="fthead-row-content">Salary</th>
+                </tr>
+            </thead>
+            <tbody class="ftbody">
+                <tr class="ftbody-row">
+                    <td class="ftbody-row-content">1</td>
+                    <td class="ftbody-row-content">Bill Gates</td>
+                    <td class="ftbody-row-content">Founder Microosoft</td>
+                    <td class="ftbody-row-content">$1000</td>
+                </tr>
+                <tr class="ftbody-row">
+                    <td class="ftbody-row-content">2</td>
+                    <td class="ftbody-row-content">Steve Jobs</td>
+                    <td class="ftbody-row-content">Founder Apple</td>
+                    <td class="ftbody-row-content">$1200</td>
+                </tr>
+                <tr class="ftbody-row">
+                    <td class="ftbody-row-content">3</td>
+                    <td class="ftbody-row-content">Larry Page</td>
+                    <td class="ftbody-row-content">Founder Google</td>
+                    <td class="ftbody-row-content">$1100</td>
+                </tr>
+                <tr class="ftbody-row">
+                    <td class="ftbody-row-content">4</td>
+                    <td class="ftbody-row-content">Mark Zuckerberg</td>
+                    <td class="ftbody-row-content">Founder Facebook</td>
+                    <td class="ftbody-row-content">$1300</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="stable" border="1px" width="900">
+            <thead class="sthead">
+                <tr class="sthead-row">
+                    <th class="sthead-row-content">Level1</th>
+                    <th class="sthead-row-content">Level2</th>
+                    <th class="sthead-row-content">Level3</th>
+                    <th class="sthead-row-content">Info</th>
+                    <th class="sthead-row-content">Name</th>
+                </tr>
+            </thead>
+            <tbody class="stbody">
+                <tr class="stbody-row">
+                    <td class="stbody-row-content" rowspan="6">System</td>
+                    <td class="stbody-row-content" rowspan="4">System Apps</td>
+                    <td class="stbody-row-content" rowspan="3">SystemEnv</td>
+                    <td class="stbody-row-content">App Test</td>
+                    <td class="stbody-row-content">foo</td>
+                </tr>
+                <tr>
+                    <td class="stbody-row-content">App Memory</td>
+                    <td class="stbody-row-content">foo</td>
+                </tr>
+                <tr>
+                    <td class="stbody-row-content">App Test</td>
+                    <td class="stbody-row-content">bar</td>
+                </tr>
+                <tr>
+                    <td class="stbody-row-content">SystemEnv2</td>
+                    <td class="stbody-row-content">App Test</td>
+                    <td class="stbody-row-content">bar</td>
+                </tr>
+                <tr>
+                    <td class="stbody-row-content" rowspan="2">System Memory</td>
+                    <td class="stbody-row-content" rowspan="2">Memory Test</td>
+                    <td class="stbody-row-content">Memory Function</td>
+                    <td class="stbody-row-content">foo</td>
+                </tr>
+                <tr>
+                    <td class="stbody-row-content">Apes Test</td>
+                    <td class="stbody-row-content">foo</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="ttable" border="1px" width="900">
+            <thead>
+                <tr>
+                    <th class="tthead-row-content" rowspan="3">Day</th>
+                    <th class="tthead-row-content" colspan="5">Seminar</th>
+                </tr>
+                <tr>
+                    <th class="tthead-row-content" colspan="2">Schedule</th>
+                    <th class="tthead-row-content" colspan="3" rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th class="tthead-row-content" colspan="1">Begin</th>
+                    <th class="tthead-row-content" colspan="1">End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="2">Monday</td>
+                    <td class="ttbody-row-content" rowspan="2">8:00 a.m.</td>
+                    <td class="ttbody-row-content" rowspan="2">5:00 p.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">Introduction to XML</td>
+                </tr>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="1">Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="3">Tuesday</td>
+                    <td class="ttbody-row-content" rowspan="1">8:00 a.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">11:00 a.m.</td>
+                    <td class="ttbody-row-content" rowspan="2">XPath</td>
+                </tr>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="1">11:00 a.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">2:00 p.m.</td>
+                </tr>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="1">2:00 p.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">5:00 p.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td class="ttbody-row-content" rowspan="1">Wednesday</td>
+                    <td class="ttbody-row-content" rowspan="1">8:00 a.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">12:00 p.m.</td>
+                    <td class="ttbody-row-content" rowspan="1">XSL Formatting Objects</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
